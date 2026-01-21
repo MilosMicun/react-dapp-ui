@@ -1,9 +1,8 @@
 function TokenBalanceCard({ onClaim }) {
   return (
-    <main className="bg-white rounded-2xl shadow-lg p-6 max-w-md w-full mx-auto sm:max-w-lg md:max-w-xl">
-      <h2 className="text-2xl font-semibold mb-4 text-gray-800 text-center">Token Balance</h2>
-      <p className="mb-6 text-gray-600 text-center">You have 250 XYZ tokens</p>
-      
+    <main className="bg-white rounded-2xl shadow-lg p-6 max-w-md sm:max-w-sm md:max-w-md lg:max-w-lg mx-auto text-center">
+      <h2 className="text-2xl font-semibold mb-4 text-gray-800">Token Balance</h2>
+      <p className="mb-6 text-gray-600">You have 250 XYZ tokens</p>
       <div className="flex justify-center">
         <button
           onClick={onClaim}
@@ -17,3 +16,4 @@ function TokenBalanceCard({ onClaim }) {
 }
 
 export default TokenBalanceCard;
+

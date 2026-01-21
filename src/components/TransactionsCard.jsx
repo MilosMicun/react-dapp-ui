@@ -6,7 +6,7 @@ function TransactionsCard() {
   ];
 
   return (
-    <main className="bg-white rounded-2xl shadow-lg p-6 max-w-md w-full mx-auto sm:max-w-lg md:max-w-xl">
+    <main className="bg-white rounded-2xl shadow-lg p-6 max-w-md sm:max-w-sm md:max-w-md lg:max-w-lg mx-auto">
       <h2 className="text-2xl font-semibold mb-4 text-gray-800 text-center">Recent Transactions</h2>
       <ul className="list-disc list-inside space-y-2 text-gray-600">
         {transactions.map((tx, index) => (
@@ -18,3 +18,4 @@ function TransactionsCard() {
 }
 
 export default TransactionsCard;
+

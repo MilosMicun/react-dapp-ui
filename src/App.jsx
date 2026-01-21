@@ -9,7 +9,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-blue-50 p-6 flex flex-col space-y-6">
+    <div className="min-h-screen bg-blue-50 p-6 flex flex-col sm:flex-row sm:flex-wrap sm:justify-center gap-6">
       <WalletCard />
       <TokenBalanceCard onClaim={handleClaimRewards} />
       <TransactionsCard />
