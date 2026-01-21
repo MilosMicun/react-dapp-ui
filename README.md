@@ -1,16 +1,29 @@
-# React + Vite
+# React DApp UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple **React DApp UI** built with **Tailwind CSS**.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Wallet card with Connect button
+- Token balance card with Claim Rewards button
+- Recent transactions card
+- Responsive layout for mobile and desktop
+- Footer with copyright
 
-## React Compiler
+## Usage
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Clone the repo:
+```bash
+git clone https://github.com/MilosMicun/react-dapp-ui.git
+Install dependencies:
 
-## Expanding the ESLint configuration
+bash
+Copy code
+npm install
+Run the development server:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+bash
+Copy code
+npm run dev
+License
+MIT
