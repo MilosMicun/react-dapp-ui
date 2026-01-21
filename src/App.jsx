@@ -1,5 +1,6 @@
 import WalletCard from "./components/WalletCard";
 import TokenBalanceCard from "./components/TokenBalanceCard";
+import TransactionsCard from "./components/TransactionsCard";
 
 function App() {
   const handleClaimRewards = () => {
@@ -10,6 +11,7 @@ function App() {
     <div className="min-h-screen bg-blue-50 p-6 flex flex-col space-y-6">
       <WalletCard />
       <TokenBalanceCard onClaim={handleClaimRewards} />
+      <TransactionsCard />
     </div>
   );
 }
