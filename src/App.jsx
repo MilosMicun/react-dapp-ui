@@ -1,6 +1,7 @@
 import WalletCard from "./components/WalletCard";
 import TokenBalanceCard from "./components/TokenBalanceCard";
 import TransactionsCard from "./components/TransactionsCard";
+import Footer from "./components/Footer";
 
 function App() {
   const handleClaimRewards = () => {
@@ -12,9 +13,9 @@ function App() {
       <WalletCard />
       <TokenBalanceCard onClaim={handleClaimRewards} />
       <TransactionsCard />
+      <Footer />
     </div>
   );
 }
 
 export default App;
-
